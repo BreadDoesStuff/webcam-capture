@@ -1042,9 +1042,9 @@ public class Webcam {
 		if (driver == null) {
 			driver = WebcamDriverUtils.findDriver(DRIVERS_LIST, DRIVERS_CLASS_LIST);
 		}
-		if (driver == null) {
+		/*if (driver == null) {
 			driver = new WebcamDefaultDriver();
-		}
+		}*/
 
 		LOG.info("{} capture driver will be used", driver.getClass().getSimpleName());
 
